@@ -8,6 +8,10 @@
     "name": "Inho Lee",
     "email": "sayyou0918@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mystyle2006/ts-slack-decorator"
+  },
   "readmeFilename": "README.md",
   "tags": [
     "slack",
