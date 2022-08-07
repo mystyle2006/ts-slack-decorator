@@ -9,7 +9,7 @@ npm install --save ts-slack-decorator
 npm install --save reflect-metadata
 ```
 
-> **Note**: You will need to import `reflect-metadata` somewhere in the global place of your app - https://github.com/typeorm/typeorm#installation
+> **Note**: You will need to import `reflect-metadata` somewhere in the global place of your app
 
 ## Usage
 ```typescript
