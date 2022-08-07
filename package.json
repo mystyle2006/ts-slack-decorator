@@ -1,0 +1,51 @@
+{
+  "name": "ts-slack-decorator",
+  "version": "0.0.0",
+  "description": "A Slack Method Decorator for typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": {
+    "name": "Inho Lee",
+    "email": "sayyou0918@gmail.com"
+  },
+  "readmeFilename": "README.md",
+  "tags": [
+    "slack",
+    "decorator"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -p tsconfig.json -c tslint.json ./src/**/*.ts",
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && tsc",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "@slack/webhook": "^6.1.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^7.5.5",
+    "@nestjs/core": "^7.5.5",
+    "@nestjs/testing": "^7.5.5",
+    "@nestjs/typeorm": "^7.1.5",
+    "@types/jest": "^26.0.15",
+    "delay": "^5.0.0",
+    "jest": "^26.6.3",
+    "pg": "^8.5.1",
+    "prettier": "^1.14.3",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typedoc": "^0.17.1"
+  },
+  "peerDependencies": {
+    "reflect-metadata": ">= 0.1.12"
+  }
+}
